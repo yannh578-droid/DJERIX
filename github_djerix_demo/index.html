@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>DJERIX Technologies — Think Beyond. Build Beyond.</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html" aria-label="DJERIX Technologies">
+      <img class="brand-dx" src="assets/dx-mark.png" alt="DX">
+      <span><b>DJERIX</b><small>TECHNOLOGIES</small></span>
+    </a>
+    <nav class="nav" id="mainNav">
+      <a class="active" href="#home">Accueil</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Tarifs</a>
+      <a href="pages/about.html">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="utility" id="searchBtn" aria-label="Rechercher">⌕</button>
+      <button class="utility" id="themeBtn" aria-label="Changer le thème">☼</button>
+      <div class="lang-switch" id="langSwitch"><button class="active" data-lang="fr">FR</button><button data-lang="en">EN</button></div>
+      <a class="btn outline" href="pages/ai.html">Se connecter</a>
+      <a class="btn primary" href="pages/ai.html">Créer un compte</a>
+    </div>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">Accueil</a><a href="#services">Services</a><a href="#pricing">Tarifs</a><a href="pages/about.html">À propos</a><a href="#contact">Contact</a>
+    <a class="mobile-login" href="pages/ai.html">Se connecter</a><a class="mobile-signup" href="pages/ai.html">Créer un compte</a>
+  </div>
+</header>
+
+<div class="search-overlay" id="searchOverlay" aria-hidden="true">
+  <div class="search-modal">
+    <button id="closeSearch" class="close-search">×</button>
+    <div class="eyebrow">RECHERCHE DJERIX</div>
+    <h2>Trouvez rapidement un service.</h2>
+    <input id="searchInput" type="search" placeholder="Ex. études, business, traduction…">
+    <div id="searchResults" class="search-results"></div>
+  </div>
+</div>
+
+<main>
+<section class="hero" id="home">
+  <div class="ambient a1"></div><div class="ambient a2"></div>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">DJERIX TECHNOLOGIES</div>
+      <h1>Une IA conçue pour <span>aller plus loin.</span></h1>
+      <p>Apprendre, créer, analyser, organiser, développer un projet et prendre de meilleures décisions depuis un seul environnement intelligent.</p>
+      <div class="hero-actions">
+        <a class="btn primary large" href="pages/ai.html">Commencer avec DJERIX →</a>
+        <a class="btn outline large" href="#services">Explorer les services</a>
+      </div>
+      <div class="trust"><span>✓ Simple à utiliser</span><span>✓ Pensé pour le quotidien</span><span>✓ Évolutif</span></div>
+    </div>
+
+    <div class="robot-stage robot-stage-real" aria-label="Robot humanoïde DJERIX">
+      <div class="robot-real-wrap robot-scene-wrap">
+        <img class="robot-real robot-scene" src="assets/djerix-robot-scene.jpg" alt="Robot DJERIX dans un environnement moderne" loading="eager">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services section" id="services">
+  <div class="container">
+    <div class="section-heading"><div><div class="eyebrow">CAPACITÉS DJERIX</div><h2>Un espace pour <span>agir.</span></h2></div><a href="pages/service.html" class="view-all">Voir tous les services →</a></div>
+    <div class="service-grid">
+      <a class="service-card green" href="pages/service.html?mode=study"><div class="service-icon">🎓</div><h3>Assistant d’études</h3><p>Comprendre, réviser, s’entraîner et préparer ses examens.</p><b>Ouvrir →</b></a>
+      <a class="service-card violet" href="pages/service.html?mode=presentation"><div class="service-icon">▣</div><h3>Présentations</h3><p>Structurer des présentations professionnelles rapidement.</p><b>Ouvrir →</b></a>
+      <a class="service-card coral" href="pages/service.html?mode=document"><div class="service-icon">▤</div><h3>Analyse de documents</h3><p>Comprendre et exploiter rapports, contrats et tableaux.</p><b>Ouvrir →</b></a>
+      <a class="service-card blue" href="pages/service.html?mode=image"><div class="service-icon">◇</div><h3>Création visuelle</h3><p>Transformer une idée en concept visuel ou direction créative.</p><b>Ouvrir →</b></a>
+      <a class="service-card amber" href="pages/service.html?mode=website"><div class="service-icon">&lt;/&gt;</div><h3>Création web</h3><p>Passer d’une idée à une interface et une structure web.</p><b>Ouvrir →</b></a>
+      <a class="service-card mint" href="pages/service.html?mode=ideas"><div class="service-icon">✦</div><h3>Laboratoire d’idées</h3><p>Explorer, challenger et développer de nouvelles idées.</p><b>Ouvrir →</b></a>
+      <a class="service-card pink" href="pages/service.html?mode=planner"><div class="service-icon">□</div><h3>Planificateur intelligent</h3><p>Transformer objectifs et priorités en plan d’action.</p><b>Ouvrir →</b></a>
+      <a class="service-card sky" href="pages/service.html?mode=research"><div class="service-icon">⌕</div><h3>Recherche assistée</h3><p>Organiser une recherche et synthétiser l’essentiel.</p><b>Ouvrir →</b></a>
+      <a class="service-card gold" href="pages/service.html?mode=productivity"><div class="service-icon">⚒</div><h3>Productivité</h3><p>Convertir, résumer, extraire, comparer et organiser.</p><b>Ouvrir →</b></a>
+      <a class="service-card indigo" href="pages/service.html?mode=career"><div class="service-icon">↗</div><h3>Carrière</h3><p>CV, lettres, préparation d’entretien et stratégie.</p><b>Ouvrir →</b></a>
+      <a class="service-card teal" href="pages/service.html?mode=translation"><div class="service-icon">文</div><h3>Traduction avancée</h3><p>Adapter le sens, le ton et le contexte en français ou anglais.</p><b>Ouvrir →</b></a>
+      <a class="service-card magenta" href="pages/service.html?mode=business"><div class="service-icon">◆</div><h3>Business</h3><p>Structurer une idée, un marché, une stratégie ou un plan.</p><b>Ouvrir →</b></a>
+    </div>
+  </div>
+</section>
+
+<section class="about section" id="about">
+  <div class="container about-grid">
+    <div class="about-card">
+      <div class="profile-photo-wrap"><img class="profile-photo" src="assets/yann-christol-dje.jpeg" alt="Yann Christol Dje" loading="lazy"></div>
+      <div class="about-name">Yann Christol Dje</div>
+      <div class="about-role">Fondateur · DJERIX Technologies</div>
+      <div class="about-line"></div>
+      <p class="about-tagline">Technologie · Intelligence artificielle · Entrepreneuriat</p>
+      <div class="about-mini-grid">
+        <div><b>Mission</b><span>Créer une IA réellement utile.</span></div>
+        <div><b>Vision</b><span>Construire au-delà des limites.</span></div>
+      </div>
+    </div>
+    <div class="about-copy">
+      <div class="eyebrow">À PROPOS DE MOI</div>
+      <h2>Je construis DJERIX avec une idée simple : <span>la technologie doit servir les personnes.</span></h2>
+      <p>Je suis <strong>Yann Christol Dje</strong>, informaticien et entrepreneur ivoirien. Je m’intéresse au développement logiciel, à l’intelligence artificielle et à la création de produits numériques capables de résoudre des problèmes concrets.</p>
+      <p>DJERIX Technologies représente cette ambition : créer progressivement une plateforme moderne qui rassemble des capacités intelligentes utiles aux étudiants, professionnels, créateurs et entrepreneurs.</p>
+      <div class="about-points"><div><b>Ma mission</b><span>Rendre l’IA plus utile, accessible et simple à intégrer dans la vie quotidienne.</span></div><div><b>Ma vision</b><span>Construire une technologie africaine à portée internationale, pensée pour évoluer avec ses utilisateurs.</span></div><div><b>Mon objectif</b><span>Faire de DJERIX un véritable environnement de travail intelligent, pas seulement un chatbot.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="vision section" id="vision">
+  <div class="container vision-box">
+    <div class="eyebrow">THINK BEYOND. BUILD BEYOND.</div>
+    <h2>De l’idée à l’action.</h2>
+    <p>DJERIX est pensé pour évoluer : assistant personnel, espace d’apprentissage, création, recherche, productivité, développement de projets et nouveaux services intelligents au fil du temps.</p>
+    <a href="pages/ai.html" class="btn primary">Entrer dans DJERIX →</a>
+  </div>
+</section>
+
+<section class="pricing section" id="pricing">
+  <div class="container">
+    <div class="section-heading centered"><div><div class="eyebrow">TARIFS</div><h2>Commencer simplement.</h2><p>Les offres évolueront avec les fonctionnalités de la plateforme.</p></div></div>
+    <div class="pricing-grid">
+      <article class="price-card"><span>Explorer</span><h3>Gratuit</h3><p>Pour découvrir DJERIX et ses premières capacités.</p><a class="btn outline" href="pages/ai.html">Commencer</a></article>
+      <article class="price-card featured"><span>DJERIX Pro</span><h3>À venir</h3><p>Plus de capacités, davantage d’usage et des fonctions avancées.</p><a class="btn primary" href="pages/ai.html">Découvrir DJERIX</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="contact section" id="contact">
+  <div class="container contact-box"><div><div class="eyebrow">DJERIX TECHNOLOGIES</div><h2>Construisons la suite ensemble.</h2><p>Une plateforme en évolution, avec de nouvelles capacités à venir.</p></div><a class="btn white" href="mailto:contact@djerix.com">Contacter DJERIX →</a></div>
+</section>
+</main>
+
+<footer class="footer"><div class="container footer-grid"><div><a class="brand" href="#home"><img class="brand-dx" src="assets/dx-mark.png" alt="DX"><span><b>DJERIX</b><small>TECHNOLOGIES</small></span></a><p>THINK BEYOND. BUILD BEYOND.</p></div><div><b>Explorer</b><a href="#services">Services</a><a href="pages/about.html">À propos</a><a href="#pricing">Tarifs</a></div><div><b>Outils</b><a href="pages/ai.html">IA</a><a href="pages/write.html">Rédaction</a><a href="pages/translate.html">Traduction</a><a href="pages/tools.html">Outils</a></div></div><div class="container footer-bottom">© 2026 DJERIX Technologies · Yann Christol Dje</div></footer>
+<script src="js/app.js"></script>
+</body>
+</html>

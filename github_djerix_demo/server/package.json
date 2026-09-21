@@ -1,0 +1,7 @@
+{
+  "name":"djerix-v11",
+  "version":"11.0.0",
+  "type":"module",
+  "scripts":{"start":"node index.js"},
+  "dependencies":{"cors":"latest","dotenv":"latest","express":"latest","openai":"latest"}
+}

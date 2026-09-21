@@ -1,0 +1,11 @@
+{
+  "name": "djerix",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DJERIX Technologies - AI toolbox",
+  "engines": { "node": ">=22" },
+  "scripts": { "dev": "vercel dev" },
+  "dependencies": {
+    "openai": "^6.0.0"
+  }
+}
